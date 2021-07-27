@@ -1,8 +1,13 @@
 import validator from "./validator.js";
+//El document.querySelector son selectores del CSS y su parametro es el selector entre comillas
+// y nos devuelve un elemento html.
+
+//instanciar un elemento de HTML para darle interactividad.
 
 let inputNombre = document.querySelector("#input_nombre");
 let inputNumero = document.querySelector("#input_numero");
 
+//Son los datos que se muestran en la tarjeta segun lo ingresado por el usuario.
 let divNombre = document.querySelector("#nombre");
 let divNumero = document.querySelector("#numero");
 

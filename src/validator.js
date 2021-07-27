@@ -34,6 +34,6 @@ const validator = {
     return mascara.join("");
   }
 }
-
+// exporta un objeto con funciones.
 export default validator;
 
